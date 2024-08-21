@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap');
+
+:root{
+    --cor1:#f2f2f2ea;
+    --cor2:#d9d9d9c2;
+    --cor3:#232226;
+    --cor4:#575659;
+    --cor5:#8C8888;
+    --fonte-padrao:"Noto Sans Display", sans-serif;
+    --fonte-destaque:"Rubik Mono One", monospace ;
+    --fonte-titulo:"Bebas Neue", sans-serif;
+}
+
+body{
+    background-image: url(imagens/parede-de-concreto-cinza-com-arranhoes_53876-101961.avif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    background-color: white;
+    max-width: 950px;
+    min-width: 320px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.904);
+    background-color: #32343565;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+
+main a:hover{
+    color: #ffffff25;
+    text-decoration: underline;
+    text-shadow: 0px 0px 0px black;
+}
+
+a.externos:after{
+    content: '\1F517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor5), var(--cor4) );
+    padding-top: 40px;
+    min-height: 100px;
+    width: 100%;
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+}
+
+nav > a{
+    font-weight: normal;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+    margin-right: 15px;
+    transition-duration: 0.5s;
+    padding: 5px;
+    font-size: 1em;
+    font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
+}
+
+nav > a:hover{
+    background-color: #3c4444;
+    color: #969999;
+}
+
+aside{
+    background-color:#f2f2f2ea;
+    width: 100%;
+}
+
+#nada{
+    background-color:#f2f2f2ea;
+    width: 100%;
+}
+
+.icones{
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    margin-top: 5px;
+}
+
+.links-icones{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icones:hover{
+    padding-inline: 5px;
+    border-radius: 40px;
+}
+
+#titulo-principal{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
+    font-size: 2.5em;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+#sub-titulo-principal{
+    color: rgba(255, 255, 255, 0.685);
+    font-family:var(--fonte-padrao);
+    font-size: 1.1em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
+}
+
+.sessão-normal{
+    background-color: rgba(39, 39, 39, 0.356);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#primeiro-titulo-h1{
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#segundo-titulo-h2{
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.paragrafos{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.425);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+strong:hover{
+    color: black;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.712);
+}
+
+abbr{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+abbr:hover{
+    color: black;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.712);
+}
