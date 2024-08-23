@@ -12,11 +12,7 @@
 }
 
 body{
-    background-image: url(imagens/tela.de.fundo.cinza.melhorada.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #575858;
 }
 
 *{
@@ -212,6 +208,20 @@ aside{
     margin-right: -10px;
 }
 
+.paragrafo-dentro{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+
 strong{
     font-weight: bold;
 }
@@ -229,4 +239,38 @@ abbr{
 abbr:hover{
     color: black;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.712);
+}
+
+article{
+    background-color:#808080 ;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
+    margin-top: 15px;
+}
+
+article > h3{
+    background-color: #575659;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 5px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+}
+
+.paragrafo-article{
+    color: white;
+    line-height: 1.8em;
+    font-family: var(--fonte-padrao);
+}
+
+article > ul{
+    list-style-position: inside;
+    columns: 2;
+    color: rgba(255, 255, 255, 0.884);
+    margin-top: 10px;
+    font-family: var(--fonte-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-size: 1.2em;
 }
