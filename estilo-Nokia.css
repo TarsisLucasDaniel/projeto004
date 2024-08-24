@@ -155,6 +155,45 @@ aside{
     border-radius: 5px;
 }
 
+.sessão-fora-normal{
+    background-color: rgba(39, 39, 39, 0.356);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#paragrafo-mudanças-desafios{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#titulo-mudanças-desafios{
+    background-color: rgba(39, 39, 39, 0.356);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: -19px -10px 0px -10px;
+    border-radius: 3px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.829);
+    text-align: center;
+}
+
+#img-fn{
+    border-radius: 5px;
+}
+
 #primeiro-titulo-h1{
     font-family: var(--fonte-titulo);
     font-weight: normal;
