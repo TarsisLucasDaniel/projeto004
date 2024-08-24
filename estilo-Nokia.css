@@ -178,6 +178,61 @@ aside{
     color: rgb(0, 0, 0);
 }
 
+#paragrafo-mudanças-desafioss{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#paragrafo-mudanças-desafiosss{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#paragrafo-mudanças-desafiossss{
+    margin-top: -20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#paragrafo-mudanças-desafiosssss{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family:var(--fonte-padrao);
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    font-weight: normal;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+
 #titulo-mudanças-desafios{
     background-color: rgba(39, 39, 39, 0.356);
     color: rgb(0, 0, 0);
@@ -188,6 +243,21 @@ aside{
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.829);
     text-align: center;
+}
+
+#titulo-nokia-900{
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 2em;
+    margin-left: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    background-image: linear-gradient(to right, #727272, transparent);
+    padding: 15px;
+    margin-left: -10px;
+    border-radius: 5px;
+    margin-top: -30px;
+    margin-bottom: 25px;
 }
 
 #img-fn{
