@@ -232,7 +232,6 @@ aside{
     margin-bottom: 10px;
 }
 
-
 #titulo-mudanças-desafios{
     background-color: rgba(39, 39, 39, 0.356);
     color: rgb(0, 0, 0);
@@ -243,6 +242,35 @@ aside{
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.829);
     text-align: center;
+}
+
+#titulo-nokia-1520{
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 2em;
+    margin-left: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    background-image: linear-gradient(to right, #727272, transparent);
+    padding: 15px;
+    margin-left: -10px;
+    margin-bottom: 25px;
+}
+
+#titulo-nokia-1020{
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 2em;
+    margin-left: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    background-image: linear-gradient(to right, #727272, transparent);
+    padding: 15px;
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 2em;
+    margin-left: -10px;
+    margin-bottom: 25px;
 }
 
 #titulo-nokia-900{
