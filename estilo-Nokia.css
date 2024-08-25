@@ -12,7 +12,11 @@
 }
 
 body{
-    background-color: #575858;
+    background-image: url(imagens/tela.de.fundo.cinza.melhorada.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 *{
