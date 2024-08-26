@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url(imagens/tela.de.fundo.cinza.melhorada.jpg);
+    background-image: url(imagens/pexels-photo-5381657.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -169,6 +169,16 @@ aside{
     margin-top: 20px;
 }
 
+#sessao-sobre-declinio{
+    background-color: #B2B2B2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 #paragrafo-mudanças-desafios{
     margin: 15px 0px;
     text-align: justify;
@@ -236,6 +246,23 @@ aside{
     margin-bottom: 10px;
 }
 
+#paragrafo-mudanças-desafiossssss{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    font-family:var(--fonte-padrao);
+    font-weight: normal;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-shadow:1px 1px 0px rgba(0, 0, 0, 0.479) ;
+    margin-top: 15px;
+    background-color: #575757;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
 #titulo-mudanças-desafios{
     background-color: rgba(39, 39, 39, 0.356);
     color: rgb(0, 0, 0);
@@ -292,6 +319,26 @@ aside{
     margin-bottom: 25px;
 }
 
+#titulo-declinio-nokia{
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 2.1em;
+    background-image: url(imagens/pexels-photo-5381657.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+
 #img-fn{
     border-radius: 5px;
 }
@@ -300,20 +347,22 @@ aside{
     font-family: var(--fonte-titulo);
     font-weight: normal;
     font-size: 2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
     margin-left: 20px;
     padding: 5px;
+    letter-spacing: 5px;
 }
 
 #segundo-titulo-h2{
     font-family: var(--fonte-titulo);
     font-weight: normal;
     font-size: 1.8em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
     margin-left: 20px;
     padding: 5px;
+    letter-spacing: 3px;
 }
 
 #sessão-dentro-normal{
@@ -398,6 +447,7 @@ article > h3{
     border-radius: 5px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
 }
 
 .paragrafo-article{
