@@ -254,13 +254,28 @@ aside{
     font-family:var(--fonte-padrao);
     font-weight: normal;
     padding: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
-    text-shadow:1px 1px 0px rgba(0, 0, 0, 0.479) ;
-    margin-top: 15px;
-    background-color: #575757;
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    margin-top: 8px;
     border-radius: 5px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
+}
+
+#paragrafo-mudanças-desafiossssssz{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    font-family:var(--fonte-padrao);
+    font-weight: normal;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
+    margin-top:-20px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 #titulo-mudanças-desafios{
@@ -337,6 +352,21 @@ aside{
     margin-right: -10px;
     margin-top: -20px;
     border-radius: 5px;
+}
+
+#titulo-tabela-declinio{
+    font-family: var(--fonte-titulo);
+    color: white;
+    font-size: 1.8em;
+    margin-left: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+    font-weight: normal;
+    background-image: linear-gradient(to right, #1f1e1e, transparent);
+    padding: 15px;
+    margin-left: -10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #img-fn{
@@ -417,7 +447,7 @@ strong{
 }
 
 strong:hover{
-    color: black;
+    color: #0280B5;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.712);
 }
 
@@ -464,4 +494,52 @@ article > ul{
     font-family: var(--fonte-padrao);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
     font-size: 1.2em;
+}
+
+table{
+    max-width: 700px;
+    min-width: 300px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th{
+    border: 3px solid rgb(77, 76, 76);
+    padding: 10x;
+}
+
+thead{
+    color: white;
+    background-color: black;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+#Descrição{
+    width: 500px;
+    height: 50px;
+}
+
+#ano{
+    width: 50px;
+    height: 50px;
+}
+
+.numeros{
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: white;
+    background-color: rgb(58, 58, 58);
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.texto-descrição{
+    font-family: var(--fonte-padrao);
+    color: white;
+    background-color: rgb(58, 58, 58);
+    font-weight: normal;
+    text-align: justify;
+    padding: 5px;
 }
