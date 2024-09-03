@@ -499,6 +499,7 @@ table{
     min-width: 300px;
     border-collapse: collapse;
     margin: auto;
+    position: relative;
 }
 
 tbody tr:nth-child(even){
@@ -520,6 +521,12 @@ thead{
     font-family: var(--fonte-padrao);
     font-weight: normal;
     font-size: 1.3em;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -2px;
+    background-color: #000000;
 }
 
 #Descrição{
