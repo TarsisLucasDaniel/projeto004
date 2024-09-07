@@ -379,23 +379,34 @@ aside{
 #primeiro-titulo-h1{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 2em;
+    font-size: 2.2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 5px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 #segundo-titulo-h2{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 5px;
     letter-spacing: 2px;
+}
+
+#terceiro-titulo-h3{
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 1.9em;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    color: #ffffff;
+    margin-left: 80px;
+    padding: 5px;
+    letter-spacing: 1px;
 }
 
 #sessão-dentro-normal{
