@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); 
 
 :root{
     --cor1:#f2f2f2ea;
@@ -37,7 +37,7 @@ main{
 main a{
     text-decoration: none;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.541);
-    font-weight: bold;
+    font-weight: normal;
     color:rgba(255, 255, 255, 0.904);
     background-color: #32343565;
     padding-left: 6px;
@@ -65,6 +65,8 @@ main a:hover{
     text-shadow: 1px 1px 2px rgb(255, 255, 255);
     box-shadow: 1px 1px 2px black;
     padding: 6px;
+    transition-duration: 0.5s;
+    font-weight: bold;
 }
 
 a.externos:after{
@@ -101,6 +103,7 @@ nav > a:hover{
     background-color: #3c4444;
     color: #000000;
     text-shadow: 1px 1px 2px white;
+    letter-spacing: 2px;
 }
 
 aside{
@@ -115,7 +118,7 @@ aside{
 
 .icones{
     border-radius: 20px;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     margin-top: 5px;
 }
 
@@ -126,7 +129,7 @@ aside{
 }
 
 .icones:hover{
-    padding-inline: 5px;
+    padding-inline: 7px;
     border-radius: 40px;
 }
 
@@ -154,7 +157,7 @@ aside{
 }
 
 .sessão-normal{
-    background-color: rgba(39, 39, 39, 0.356);
+    background-color: rgba(39, 39, 39, 0.616);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -163,7 +166,7 @@ aside{
 }
 
 .sessão-fora-normal{
-    background-color: rgba(39, 39, 39, 0.356);
+    background-color: rgba(65, 65, 65, 0.411);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -458,6 +461,7 @@ aside{
 
 strong{
     font-weight: bold;
+    transition-duration: 0.3s;
 }
 
 strong:hover{
@@ -468,11 +472,13 @@ strong:hover{
 abbr{
     text-decoration: none;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 
 abbr:hover{
     color: black;
-    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.712);
+    text-shadow: 0px 0px 0px black;
+    font-weight: normal;
 }
 
 article{
@@ -565,10 +571,13 @@ thead > tr > th{
 
 .texto-descrição{
     font-family: var(--fonte-padrao);
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: normal;
     text-align: justify;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer{
