@@ -318,7 +318,7 @@ aside{
 }
 
 #titulo-mudanças-desafios{
-    background-color: rgba(39, 39, 39, 0.356);
+    background-color: rgba(39, 39, 39, 0.164);
     color: rgb(0, 0, 0);
     padding: 10px;
     margin: -19px -10px 0px -10px;
@@ -336,7 +336,7 @@ aside{
     margin-left: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
     font-weight: normal;
-    background-image: linear-gradient(to right, #727272, transparent);
+    background-image: linear-gradient(to right, #4b4b4b, transparent);
     padding: 15px;
     margin-left: -10px;
     margin-bottom: 25px;
@@ -349,7 +349,7 @@ aside{
     margin-left: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
     font-weight: normal;
-    background-image: linear-gradient(to right, #727272, transparent);
+    background-image: linear-gradient(to right, #4b4b4b, transparent);
     padding: 15px;
     font-family: var(--fonte-destaque);
     color: white;
@@ -365,7 +365,7 @@ aside{
     margin-left: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
     font-weight: normal;
-    background-image: linear-gradient(to right, #727272, transparent);
+    background-image: linear-gradient(to right, #4b4b4b, transparent);
     padding: 15px;
     margin-left: -10px;
     margin-top: -30px;
@@ -507,9 +507,11 @@ article{
 }
 
 article > h3{
-    background-color: #575659;
+    background-color: #444444;
     color: white;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
     margin: -10px -10px 0px -10px;
     border-radius: 5px;
     font-family: var(--fonte-destaque);
@@ -537,7 +539,7 @@ article > ul{
     font-family: var(--fonte-titulo-2);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: 20px;
