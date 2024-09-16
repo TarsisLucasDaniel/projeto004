@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 :root{
     --cor1:#f2f2f2ea;
@@ -9,8 +9,9 @@
     --fonte-padrao:"Noto Sans Display", sans-serif;
     --fonte-destaque:"Rubik Mono One", monospace ;
     --fonte-titulo:"Bebas Neue", sans-serif;
-    --fonte-titulo-2:"Archivo Black", sans-serif;
+    --fonte-titulo-2:"New Amsterdam", sans-serif;
     --fonte-numeros:"Nanum Gothic", sans-serif;
+    --fonte-titulos-tabelas:"Cinzel", serif;
 }
 
 body{
@@ -539,7 +540,7 @@ article > ul{
     font-family: var(--fonte-titulo-2);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 1.7em;
+    font-size: 2em;
     margin-left: -5px;
     margin-right: -5px;
     margin-top: 20px;
@@ -590,18 +591,19 @@ thead > tr > th{
 } 
 
 #Descrição{
-    width: 500px;
-    height: 50px;
+    font-family:var(--fonte-titulos-tabelas);
+    letter-spacing: 1px;
 }
 
 #ano{
-    width: 50px;
-    height: 50px;
+    padding: 20px;
+    letter-spacing: 1px;
+    font-family: var(--fonte-titulos-tabelas);
 }
 
 .numeros{
     text-align: center;
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-numeros);
     color: white;
     font-weight: normal;
     font-size: 1.1em;
@@ -664,11 +666,14 @@ thead > tr > th{
 .th-tabela-dois{
     background-color: #000000;
     border: 0.5px solid rgba(56, 56, 56, 0.87);
+    font-family: var(--fonte-titulos-tabelas);
+    letter-spacing: 1px;
 }
 
 #ano-tabela-dois{
-    padding: 10px;
-    
+    padding: 20px;
+    letter-spacing: 1px;
+    font-family: var(--fonte-titulos-tabelas);
 }
 
 .numeros-tabela-dois{
