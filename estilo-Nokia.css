@@ -28,7 +28,7 @@ body{
 }
 
 main{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.712);
     max-width: 950px;
     min-width: 320px;
     margin-bottom: 30px;
@@ -454,7 +454,7 @@ aside{
     margin: 15px 0px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
@@ -464,20 +464,22 @@ aside{
     background-color: rgba(0, 0, 0, 0.425);
     margin-left: -10px;
     margin-right: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .paragrafo-dentro{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
     font-weight: normal;
     color: rgb(255, 255, 255);
     padding-bottom: 20px;
-    padding-left:5px ;
-    padding-right: 5px;
+    padding-left:10px ;
+    padding-right: 10px;
 }
 
 strong{
