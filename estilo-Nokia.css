@@ -192,7 +192,7 @@ aside{
     margin: 15px 0px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -206,7 +206,7 @@ aside{
     margin-bottom: 40px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -220,7 +220,7 @@ aside{
     margin-bottom: 10px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -234,7 +234,7 @@ aside{
     margin-bottom: 40px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -246,7 +246,7 @@ aside{
 #paragrafo-nokia-lumia-900{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -261,7 +261,7 @@ aside{
 #paragrafo-nokia-lumia-1020{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -275,7 +275,7 @@ aside{
 #paragrafo-nokia-lumia-1520{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.1em;
     font-family:var(--fonte-padrao);
     text-shadow:1px 1px 0px rgba(255, 255, 255, 0.479) ;
@@ -289,7 +289,7 @@ aside{
 #paragrafo-declinio-nokia{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.2em;
     font-family:var(--fonte-padrao);
     font-weight: normal;
@@ -305,7 +305,7 @@ aside{
 #paragrafo-declinio-da-nokia{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 1.2em;
     font-family:var(--fonte-padrao);
     font-weight: normal;
@@ -321,13 +321,16 @@ aside{
 #titulo-mudanças-desafios{
     background-color: rgba(39, 39, 39, 0.164);
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     margin: -19px -10px 0px -10px;
     border-radius: 3px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.829);
     text-align: center;
+    font-size: 1.6em;
+    letter-spacing: 2px;
 }
 
 #titulo-nokia-1520{
@@ -403,7 +406,7 @@ aside{
     font-size: 2.2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 5px;
     letter-spacing: 3px;
 }
@@ -414,24 +417,24 @@ aside{
     font-size: 2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 40px;
+    margin-left: 120px;
     padding: 5px;
     letter-spacing: 2px;
 }
 
-#terceiro-titulo-h3{
+#terceiro-titulo-h2{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 1.9em;
+    font-size: 2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 80px;
+    text-align: center;
     padding: 5px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #sessão-dentro-normal{
-    background-color: rgba(39, 39, 39, 0.356);
+    background-color: rgba(39, 39, 39, 0.733);
     border-radius: 7px;
 }
 
@@ -491,6 +494,7 @@ abbr{
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
+    line-height: 30px;
 }
 
 abbr:hover{
@@ -513,17 +517,27 @@ article > h3{
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 15px;
+    padding-right: 6px;
     margin: -10px -10px 0px -10px;
     border-radius: 5px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
+    letter-spacing: 1px;
+    font-size: 1.2em;
 }
 
 .paragrafo-article{
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.582);
     line-height: 1.8em;
     font-family: var(--fonte-padrao);
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 1px;
+    font-size: 1.1em;
 }
 
 article > ul{
