@@ -5,7 +5,7 @@
     --cor2:#d9d9d9c2;
     --cor3:#232226;
     --cor4:#575659;
-    --cor5:#8C8888;
+    --cor5:#727171;
     --fonte-padrao:"Noto Sans Display", sans-serif;
     --fonte-destaque:"Rubik Mono One", monospace ;
     --fonte-titulo:"Bebas Neue", sans-serif;
@@ -28,7 +28,7 @@ body{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.808);
+    background-color: rgba(255, 255, 255, 0.842);
     max-width: 950px;
     min-width: 320px;
     margin-bottom: 30px;
@@ -320,7 +320,7 @@ aside{
 }
 
 #titulo-mudanças-desafios{
-    background-color: rgba(39, 39, 39, 0.164);
+    background-color: rgba(39, 39, 39, 0.397);
     color: rgb(0, 0, 0);
     padding-top: 20px;
     padding-bottom: 15px;
