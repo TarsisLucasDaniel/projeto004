@@ -94,7 +94,7 @@ nav > a{
     border-radius: 5px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.884);
-    margin-right: 15px;
+    margin-right: 10px;
     transition-duration: 0.5s;
     padding: 5px;
     font-size: 1em;
@@ -418,9 +418,10 @@ aside{
     font-size: 2em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
-    margin-left: 120px;
     padding: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center ;
+
 }
 
 #terceiro-titulo-h2{
@@ -578,6 +579,10 @@ table{
     margin: auto;
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.514);
+}
+
+#div-table{
+    overflow-x: auto;
 }
 
 tbody tr:nth-child(even){
