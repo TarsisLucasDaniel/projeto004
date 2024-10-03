@@ -96,7 +96,7 @@ nav > a{
     color: rgba(255, 255, 255, 0.884);
     margin-right: 10px;
     transition-duration: 0.5s;
-    font-size: 1em;
+    font-size: 12px;
     font-family: var(--fonte-destaque);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
 }
@@ -106,6 +106,7 @@ nav > a:hover{
     color: #000000;
     text-shadow: 1px 1px 2px white;
     letter-spacing: 2px;
+    padding: 5px;
 }
 
 aside{
