@@ -96,7 +96,6 @@ nav > a{
     color: rgba(255, 255, 255, 0.884);
     margin-right: 10px;
     transition-duration: 0.5s;
-    padding: 5px;
     font-size: 1em;
     font-family: var(--fonte-destaque);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
