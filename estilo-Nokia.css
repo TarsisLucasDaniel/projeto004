@@ -42,8 +42,8 @@ main a{
     font-weight: normal;
     color:rgba(255, 255, 255, 0.904);
     background-color: #32343565;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 5px;
@@ -166,6 +166,12 @@ aside{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+}
+
+#sessão-dentro-normal{
+    background-color: rgba(39, 39, 39, 0.733);
+    border-radius: 7px;
+    border: 1px solid black;
 }
 
 .sessão-fora-normal{
@@ -318,15 +324,38 @@ aside{
 }
 
 #titulo-mudanças-desafios{
-    background-color: rgba(39, 39, 39, 0.397);
-    color: rgb(0, 0, 0);
+    background-image: url(imagens/pexels-photo-5381657.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
     padding-top: 20px;
     padding-bottom: 15px;
     margin: -19px -10px 0px -10px;
     border-radius: 3px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
-    text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.829);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.829);
+    text-align: center;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+#titulo-criações-na-parceria{
+    background-image: url(imagens/pexels-photo-5381657.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: -19px -10px 0px -10px;
+    border-radius: 3px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
     text-align: center;
     font-size: 1.6em;
     letter-spacing: 2px;
@@ -419,7 +448,6 @@ aside{
     padding: 5px;
     letter-spacing: 1px;
     text-align: center ;
-
 }
 
 #terceiro-titulo-h2{
@@ -433,11 +461,6 @@ aside{
     letter-spacing: 2px;
 }
 
-#sessão-dentro-normal{
-    background-color: rgba(39, 39, 39, 0.733);
-    border-radius: 7px;
-}
-
 #nokia-1011-titulo{
     text-align: center;
     color: white;
@@ -445,8 +468,7 @@ aside{
     font-size: 2em;
     font-family: var(--fonte-destaque);
     font-weight: normal;
-    margin-top: 35px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-bottom: 5px;
 }
 
@@ -506,22 +528,24 @@ abbr:hover{
 }
 
 article{
-    background-color:#808080 ;
+    background-color:#696969 ;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);
     margin-top: 15px;
+    border: 1px solid black;
 }
 
 article > h3{
-    background-color: #444444;
+    background-color: #313131;
     color: white;
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 6px;
     margin: -10px -10px 0px -10px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     font-family: var(--fonte-destaque);
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
@@ -737,7 +761,6 @@ footer{
     color: white;
     text-align: center;
     font-size: 1.2em;
-    font-family: cursive, sans-serif;
     font-weight: normal;
     padding: 10px;
     padding-bottom: 15px;
