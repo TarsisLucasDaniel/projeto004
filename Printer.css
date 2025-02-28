@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    padding: 30px;
+    margin:10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header > #titulo-principal{
+    font-size: 2em;
+    text-align: center;
+}
+
+header > #sub-titulo-principal{
+    font-size: 1.5em;
+    margin-top: -60px;
+}
+
+div#nada{
+    display: none;
+}
+
+aside{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+
+.paragrafos > a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+abbr{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+strong{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#sessão-dentro-normal{
+    display: none;
+}
+
+article{
+    display: none;
+}
+
