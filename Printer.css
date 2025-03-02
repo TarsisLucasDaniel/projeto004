@@ -57,6 +57,42 @@ nav{
     color: black;
 }
 
+.sessão-fora-normal > #paragrafo-2-criações-parceria > a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.sessão-fora-normal > #paragrafo-nokia-lumia-900 > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.sessão-fora-normal > #paragrafo-nokia-lumia-1020 > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.sessão-fora-normal > #paragrafo-nokia-lumia-1520 > a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#paragrafo-declinio-nokia > a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#paragrafo-declinio-da-nokia > a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 abbr{
     text-decoration: none;
     color: black;
@@ -77,4 +113,6 @@ article{
     display: none;
 }
 
-
+footer > a{
+    display: none;
+}
