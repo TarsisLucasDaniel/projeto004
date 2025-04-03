@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Play:wght@400;700&family=Righteous&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Signika+Negative:wght@300..700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url(fonts.css);
 
 :root{
     --cor1:#f2f2f2ea;
@@ -58,14 +58,6 @@ main img{
    display: block;
 }
 
-main a:hover{
-    color: #000000;
-    background-color: #4e4e4e;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 7px black;
-}
-
 a.externos:after{
     content: '\1F517';
 }
@@ -77,9 +69,33 @@ header{
     width: 100%;
 }
 
+header > #titulo-principal{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
+    font-size: 1.7em;
+    margin-bottom: 3px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+header > #sub-titulo-principal{
+    color: rgba(255, 255, 255, 0.685);
+    font-family:var(--fonte-padrao);
+    font-size: 1em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
+}
+
 nav{
     background-color: var(--cor4);
-    padding: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -93,20 +109,19 @@ nav > a{
     font-size: 12px;
     font-family: var(--fonte-destaque);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
+    padding: 5px;
 }
 
 nav > a:hover{
-    background-color: #3c4444;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) ;
     color: #000000;
-    text-shadow: 1px 1px 2px white;
-    letter-spacing: 2px;
-    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.24);
 }
 
 aside{
     background-color:#f2f2f2ea;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 #nada{
@@ -118,7 +133,7 @@ aside{
     border-radius: 50px;
     transition-duration: 0.5s;
     margin-top: 5px;
-    margin: 20px;
+    margin: 10px;
     box-sizing: border-box;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
     border: 1px solid rgba(255, 255, 255, 0.596);
@@ -131,30 +146,6 @@ aside a{
 .icones:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 7px black;
-}
-
-#titulo-principal{
-    text-align: center;
-    font-family: var(--fonte-destaque);
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.829) ;
-    font-size: 2.5em;
-    margin-bottom: 8px;
-    font-weight: normal;
-    letter-spacing: 2px;
-}
-
-#sub-titulo-principal{
-    color: rgba(255, 255, 255, 0.685);
-    font-family:var(--fonte-padrao);
-    font-size: 1.1em;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 30px;
-    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.479) ;
 }
 
 .sessão-normal{
@@ -429,7 +420,7 @@ aside a{
 #primeiro-titulo-h1{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 2.2em;
+    font-size: 1.5em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
     margin-left: 30px;
@@ -440,7 +431,7 @@ aside a{
 #segundo-titulo-h2{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
     padding: 5px;
@@ -451,7 +442,7 @@ aside a{
 #terceiro-titulo-h2{
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
     color: #ffffff;
     text-align: center;
@@ -504,12 +495,6 @@ aside a{
 
 strong{
     font-weight: bold;
-    transition-duration: 0.3s;
-}
-
-strong:hover{
-    color: #ffffff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712);
 }
 
 abbr{
@@ -521,8 +506,7 @@ abbr{
 
 abbr:hover{
     color: black;
-    text-shadow: 0px 0px 0px black;
-    font-weight: normal;
+    text-shadow: none;
 }
 
 article{
