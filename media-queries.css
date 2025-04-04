@@ -205,4 +205,15 @@
         color: rgb(0, 0, 0);
         text-shadow: none;
     }
+
+    #sessão-dentro-normal > #nokia-1011-titulo{
+        font-size: 2.4em;
+    }
+
+    #sessão-dentro-normal > .paragrafo-descrição-nokia-1011{
+        line-height: 1.8em;
+        font-size: 1.5em;
+    }
+       
+   
 }
