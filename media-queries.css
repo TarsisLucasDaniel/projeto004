@@ -214,6 +214,116 @@
         line-height: 1.8em;
         font-size: 1.5em;
     }
+
+    article{
+        padding: 20px;
+    }
+
+    article > h3{
+        font-size: 1.6em;
+        margin-left: -20px;
+        margin-top: -20px;
+        margin-right: -20px;
+    }
+
+    article > #paragrafo-article{
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        text-indent: -11px;
+    }
+
+    article > ul{
+        line-height: 2;
+    }
+
+    li > abbr{
+        font-size: 24px;
+    }
+
+    .sessão-fora-normal{
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #titulo-mudanças-desafios{
+        font-size: 2.2em;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    #paragrafo-mudanças-desafios-primeiro{
+        font-size: 1.4em;
+
+    }
+
+    #paragrafo-mudanças-desafios-segundo{
+        font-size: 1.4em;
+    }
+
+    #titulo-criações-na-parceria{
+        font-size: 2.2em;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    #paragrafo-criações-parceria-primeiro{
+        font-size: 1.4em;
+    }
+
+    #paragrafo-cirações-na-parceria-segundo{
+        font-size: 1.4em;
+    }
+
+    #titulo-nokia-900{
+        font-size: 2em;
+        margin-right: -3px;
+        margin-left: -3px;
+    }
+
+    .paragrafo-nokia-lumia-900{
+        font-size: 1.4em;
+    }
+
+    #titulo-nokia-1020{
+        font-size: 2em;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .paragrafo-nokia-lumia-1020{
+        font-size: 1.4em;
+    }
+
+    #titulo-nokia-1520{
+        font-size: 2em;
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+
+    .paragrafo-nokia-lumia-1520{
+        font-size: 1.4em;
+    }
+
+    #sessao-sobre-declinio{
+        margin-left: -20px;
+        margin-right:-20px ;
+        margin-top: -10px;
+    }
+
+    #sessao-sobre-declinio > #titulo-declinio-nokia{
+        font-size: 3em;
+        letter-spacing: 10px;
+    }
+
+    .paragrafo-declinio-nokia{
+        font-size: 1.4em;
+    }
+
+    
+
+
        
    
 }
