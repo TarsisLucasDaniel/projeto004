@@ -176,8 +176,8 @@ aside a{
     background-color: #B2B2B2;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -263,21 +263,18 @@ aside a{
 #titulo-declinio-nokia{
     padding: 10px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    text-align: center;
     color: white;
     font-family: var(--fonte-titulo);
     font-weight: normal;
+    font-size: 1.9em;
     letter-spacing: 5px;
-    text-align: center;
-    font-size: 1.8em;
-    background-image: url(imagens/pexels-photo-5381657.jpeg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -20px;
+    background:url(imagens/pexels-photo-5381657.jpeg) center bottom no-repeat fixed;
     border-radius: 5px;
+    background-size: cover;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -20px;
 }
 
 .img-fn{
@@ -446,7 +443,7 @@ aside a{
 .paragrafo-declinio-nokia{
     text-align: justify;
     text-indent: 25px;
-    line-height: 1.7em;
+    line-height: 2em;
     font-size: 1.2em;
     font-family:var(--fonte-padrao);
     font-weight: normal;
@@ -551,24 +548,23 @@ article > ul{
 
 #titulo-tabela-declinio{
     font-family: var(--fonte-titulo-2);
-    color: rgb(0, 0, 0);
-    text-align: center;
+    font-weight: normal;
     font-size: 2em;
-    margin-left: -5px;
-    margin-right: -5px;
+    color: rgb(0, 0, 0);
+    margin-left: -1px;
+    margin-right: -1px;
     margin-top: 20px;
     margin-bottom: 25px;
     text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.822);
-    font-weight: normal;
+    text-align: center;
     background-color: #ffffff56;
-    letter-spacing: 1px;
-    border: 1px solid rgba(0, 0, 0, 0.603);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    letter-spacing: 1px;
     padding: 10px;
 }
 
 table{
-    max-width: 700px;
+    max-width: 1000px;
     min-width: 300px;
     border-collapse: collapse;
     margin: auto;
@@ -578,6 +574,10 @@ table{
 
 .div-table{
     overflow-x: auto;
+}
+
+#div-table-1{
+    margin-top: -25px;
 }
 
 tbody tr:nth-child(even){
@@ -638,12 +638,16 @@ thead > tr > th{
 }
 
 #tabela-dois{
-    max-width: 900px;
+    max-width: 1000px;
     min-width: 300px;
     border-collapse: collapse;
     margin: auto;
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.514);
+}
+
+#div-table-2{
+    margin-top: -15px;
 }
 
 #corpo-tabela-dois tr:nth-child(even){
@@ -659,16 +663,15 @@ thead > tr > th{
     color: rgb(0, 0, 0);
     font-size: 1.7em;
     font-weight: normal;
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-top: 40px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: 0px;
     margin-bottom: 15px;
     background-color: #ffffff56;
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
     letter-spacing: 1px;
     padding: 10px;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.603);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
 }
 
