@@ -134,6 +134,138 @@
 }
 
 @media screen and (min-width:481px) and (max-width:768px){
+    header > #titulo-principal{
+        font-size: 2em;
+    }
+
+    header > #sub-titulo-principal{
+        font-size: 18px;
+    }
+
+    nav > a{
+        font-size: 14px;
+    }
+
+    .sessão-normal > #primeiro-titulo-h1{
+        font-size: 2.4em;
+    }
+
+    .sessão-normal > #segundo-titulo-h2{
+        font-size: 2.2em;
+    }
+
+    .sessão-normal > #terceiro-titulo-h2{
+        font-size: 2em;
+    }
+
+    .sessão-normal > .paragrafos{
+        padding: 15px;
+        line-height: 2em;
+        font-size: 1.3em;
+    }
+
+    #sessão-dentro-normal > #nokia-1011-titulo{
+        font-size: 2.2em;
+    }
+
+    #sessão-dentro-normal > .paragrafo-descrição-nokia-1011{
+        line-height: 1.9em;
+        font-size: 1.2em;
+    }
+
+    article > h3{
+        font-size: 1.3em;
+    }
+
+    article > #paragrafo-article{
+        font-size: 19px;
+    }
+
+    article > ul{
+        line-height: 2em;
+    }
+
+    li > abbr{
+        font-size: 20px;
+    }
+
+    .sessão-fora-normal > #titulo-mudanças-desafios{
+        font-size: 1.7em;
+    }
+
+    .sessão-fora-normal > #paragrafo-mudanças-desafios-primeiro{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #paragrafo-mudanças-desafios-segundo{
+        font-size: 1.1em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #titulo-criações-na-parceria{
+        font-size: 1.9em;
+    }
+
+    .sessão-fora-normal > #paragrafo-criações-parceria-primeiro{
+        font-size: 1.1em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #paragrafo-cirações-na-parceria-segundo{
+        font-size: 1.1em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #titulo-nokia-900{
+        font-size: 1.8em;
+    }
+
+     .paragrafo-nokia-lumia-900{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #titulo-nokia-1020{
+        font-size: 1.8em;
+    }
+
+    .paragrafo-nokia-lumia-1020{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .sessão-fora-normal > #titulo-nokia-1520{
+        font-size: 1.8em;
+    }
+
+    .paragrafo-nokia-lumia-1520{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    #sessao-sobre-declinio > #titulo-declinio-nokia{
+        font-size: 2.5em;
+        letter-spacing: 5px;
+    }
+
+    .paragrafo-declinio-nokia{
+        font-size: 1.1em;
+        line-height: 2em;
+    }
+
+    #titulo-tabela-declinio{
+        font-size: 2.5em;
+    }
+
+    #titulo-tabela-após-declinio{
+        font-size: 2em;
+    }
+
+    footer{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
 
 }
 
@@ -255,7 +387,6 @@
 
     #paragrafo-mudanças-desafios-primeiro{
         font-size: 1.4em;
-
     }
 
     #paragrafo-mudanças-desafios-segundo{
@@ -352,9 +483,16 @@
         padding: 15px;
     }
 
-    
+    footer{
+        padding: 20px;
+        font-size: 1.5em;
+        font-family: var(--fonte-padrao);
+        letter-spacing: 2px;
+    }
 
+    #icone-githube:hover{
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 7px rgb(255, 255, 255);
+    }
 
-       
-   
 }
